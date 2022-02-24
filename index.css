@@ -16,7 +16,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 100px;
+    padding: 5px 80px;
     z-index: 100;
 }
 .navigation{
@@ -91,4 +91,57 @@ header{
 }
 .content{
     position: absolute;
+    width: 50%;
+    top: 60%;
+    left: 80px;
+    transform: translateY(-50%);
+}
+/* .title,
+.favicon{
+    border: 1px solid black;
+    padding: 0;
+} */
+.favicon{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+.content p{
+    width: 80%;
+    /* padding-bottom: 30px; */
+}
+.content ul{
+    position: absolute;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    margin:20px 20px 0 0;
+    width: 100px;
+    height: 30px;
+    background: #fff;
+    text-align: center;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+.grey{
+    background: gray !important;
+    text-transform: capitalize;
+}
+.grey a{
+    color: #fff !important;
+}
+.content a{
+    color: #000;
+    text-decoration: none;
 }
